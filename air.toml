@@ -1,0 +1,8 @@
+# air.toml
+
+# 启动命令和参数
+cmd = "go"
+args = ["run", "main.go"]
+
+# 重新构建时排除的目录和文件
+exclude_dir = ["static", "view"]
